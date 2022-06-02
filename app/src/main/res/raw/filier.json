@@ -1,0 +1,17 @@
+[
+  {
+    "code":"TDI",
+    "nom":"Technicien development",
+    "nombre":32
+  },
+  {
+    "code":"TRI",
+    "nom":"Technicien resaux",
+    "nombre":45
+  },
+  {
+    "code":"TIF",
+    "nom":"Technicien infographie",
+    "nombre":15
+  }
+]

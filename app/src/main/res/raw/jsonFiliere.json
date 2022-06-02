@@ -1,0 +1,21 @@
+[
+  {
+    "code":"TDI",
+    "description":"Technicien development",
+    "niveau":"n32",
+    "nbModule": 21
+  },
+  {
+    "code":"TRI",
+    "nom":"Technicien resaux",
+    "niveau":"n76",
+    "nbModule":45
+
+  },
+  {
+    "code":"TIF",
+    "nom":"Technicien infographie",
+    "niveau":"n342",
+    "nbModule":15
+  }
+]

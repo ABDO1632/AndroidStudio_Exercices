@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".ResultatDesNotesJson"
+            android:exported="false" />
+        <activity
+            android:name=".JsonFiliere"
+            android:exported="false" />
+        <activity
+            android:name=".OnTouchEvent"
+            android:exported="false" />
+        <activity
+            android:name=".Produits_SqLite"
+            android:exported="false" />
+        <activity
+            android:name=".TDI_EFFT_2018"
+            android:exported="false" />
+        <activity
+            android:name=".SqliteExercice"
+            android:exported="false" />
+        <activity
+            android:name=".SpinnerConversionDistances"
+            android:exported="false" />
+        <activity
+            android:name=".ListContact"
+            android:exported="false" />
+        <activity
+            android:name=".ListContactShow"
+            android:exported="false" />
+        <activity
+            android:name=".ListLayout_SimpleAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ListesSpinners"
+            android:exported="false" />
+        <activity
+            android:name=".AccessToApps"
+            android:exported="false" />
+        <activity
+            android:name=".IntentsPageLogin"
+            android:exported="false" />
+        <activity
+            android:name=".IntentsPageShow"
+            android:exported="false" />
+        <activity
+            android:name=".Atelier_Ressource"
+            android:exported="false" />
+        <activity
+            android:name=".GM"
+            android:exported="false" />
+        <activity
+            android:name=".TextModifeirExe4"
+            android:exported="false" />
+        <activity
+            android:name=".Exercice1RadioButton"
+            android:exported="false" />
+        <activity
+            android:name=".Exam2019"
+            android:exported="false" />
+        <activity
+            android:name=".Exe2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex3"
+            android:exported="false" />
+        <activity
+            android:name=".JsonTest"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

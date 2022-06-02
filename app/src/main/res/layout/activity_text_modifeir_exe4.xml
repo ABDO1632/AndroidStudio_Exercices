@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TextModifeirExe4">
+    <!--  Exercice 4   -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:text="Liste des couleurs" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroupColors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdNoir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Noir" />
+
+        <RadioButton
+            android:id="@+id/rdJaune"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jaune" />
+
+
+        <RadioButton
+            android:id="@+id/rdBleu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bleu" />
+        <RadioButton
+            android:id="@+id/rdRouge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rouge" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taille" />
+    <RadioGroup
+        android:id="@+id/RadioGroupTaille"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rd30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="30dp" />
+
+        <RadioButton
+            android:id="@+id/rd40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40dp" />
+
+
+        <RadioButton
+            android:id="@+id/rd50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50dp" />
+        <RadioButton
+            android:id="@+id/rd60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60dp" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liste des styles" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/checkBGras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gras"/>
+        <CheckBox
+            android:id="@+id/checkBItalic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Italic"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="result"
+        />
+    <!--  Exercice 5   -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6C3131"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:textStyle="italic"
+            android:text="Poids" />
+        <EditText
+            android:id="@+id/IdPoids"
+            android:background="@drawable/gradient_dark"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="number"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:textStyle="italic"
+            android:text="Taille" />
+        <EditText
+            android:id="@+id/IdTaille"
+            android:background="@drawable/gradient_dark"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="number"
+            />
+        <RadioGroup
+            android:id="@+id/rGUnit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rdCm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Centimetre"/>
+            <RadioButton
+                android:id="@+id/rdM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metre"/>
+        </RadioGroup>
+        <CheckBox
+            android:id="@+id/ChAfficheInter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afficher l’interprètation"
+            />
+        <Button
+            android:id="@+id/imc"
+            android:text="Calculer IMC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/RAZ"
+            android:text="RAZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/ResultatPoids"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultat"/>
+    </LinearLayout>
+</LinearLayout>

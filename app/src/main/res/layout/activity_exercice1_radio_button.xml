@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Exercice1RadioButton">
+
+    <RadioGroup
+        android:id="@+id/rdGrop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rd1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="choix 1" />
+
+        <RadioButton
+            android:id="@+id/rd2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="choix 2" />
+
+        <RadioButton
+            android:id="@+id/rd3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="choix 3" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/ch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="choix 1" />
+
+    <Button
+        android:id="@+id/ch2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="choix 2" />
+
+    <Button
+        android:id="@+id/ch3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="choix 3" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="DESELECTIONER TOUS" />
+
+    <Button
+        android:id="@+id/btnAf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="AFFICHER LE BUTTON COCHE" />
+    <!-- Exercice 2-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#B16060">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_marginTop="40px"
+            android:layout_height="wrap_content"
+            android:id="@+id/Iphone"
+            android:text="Iphone"
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+
+            android:id="@+id/android"
+            android:text="android"
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+
+            android:id="@+id/windowsPhone"
+            android:text="wondows phone"
+            />
+        <Button
+            android:id="@+id/btnDisplay"
+            android:layout_marginTop="40px"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display" />
+    </LinearLayout>
+    <!-- Exercice 3-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:background="#1D9163">
+        <LinearLayout
+            android:layout_width="540px"
+            android:layout_height="500px"
+            android:orientation="vertical"
+            android:background="#49B3BD">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:id="@+id/grpImage"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img1"
+                android:text="Image 1"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img2"
+                android:text="Image 2"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img3"
+                android:text="Image 3"
+                />
+        </RadioGroup>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="540px"
+            android:layout_height="500px"
+            android:orientation="vertical"
+            android:background="#49B3BD">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/mainImage"
+                android:src="@drawable/s2"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".JsonFiliere">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xxxx"
+        android:hint="code"
+        android:id="@+id/jsonFCode"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xxxx"
+        android:hint="Desc"
+        android:id="@+id/jsonFDesc"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xxxx"
+        android:hint="Niveau"
+        android:id="@+id/jsonFNiveau"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xxxx"
+        android:hint="Nombre Module"
+        android:id="@+id/jsonFNbModule"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jsonFBtn"
+        android:text="insert"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jsonFBtn2"
+        android:text="insert from Json"/>
+</LinearLayout>

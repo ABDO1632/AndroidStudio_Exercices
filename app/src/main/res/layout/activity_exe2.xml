@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/GreySmoke"
+    tools:context=".Exe2">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:paddingLeft="40px"
+        android:textColor="@color/white"
+        android:gravity="fill_vertical"
+        android:text="Exercice 01"
+        android:background="@color/purple_700"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:paddingLeft="40px"
+        android:textColor="@color/black"
+
+        android:gravity="fill_vertical"
+        android:text="Nombre 1 :"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:paddingLeft="40px"
+        android:gravity="fill_vertical"
+        android:textColor="@color/black"
+        android:background="@color/teal_200"
+        android:id="@+id/nb1"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:paddingLeft="40px"
+        android:textColor="@color/black"
+
+        android:gravity="fill_vertical"
+        android:text="Nombre 2 :"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:paddingLeft="40px"
+        android:gravity="fill_vertical"
+        android:textColor="@color/black"
+        android:background="@color/teal_200"
+        android:id="@+id/nb2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOMME"
+        android:id="@+id/btnSomme"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOUSTRACTION"
+        android:id="@+id/btnSOUSTRACTION"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRODUIT"
+        android:id="@+id/btnPRODUIT"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIVISION"
+
+        android:id="@+id/btnDIVISION"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:paddingLeft="40px"
+        android:textColor="@color/black"
+
+        android:gravity="fill_vertical"
+        android:text="Resultat :"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+
+        android:paddingLeft="40px"
+        android:gravity="fill_vertical"
+        android:textColor="@color/black"
+        android:background="@color/teal_200"
+        android:id="@+id/Res"
+        />
+</LinearLayout>
